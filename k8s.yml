@@ -25,7 +25,7 @@ spec:
   type: ClusterIP
   ports:
   - name: "hello-world"
-    port: 80
+    port: 8080
   selector:
     app: hello-world
 
@@ -45,6 +45,6 @@ spec:
               service:
                 name: hello-world
                 port:
-                  number: 80
+                  number: 8080
             path: /
             pathType: ImplementationSpecific
