@@ -12,4 +12,4 @@ RUN npm install -g shadowsocks
 
 EXPOSE 80
 
-CMD ssserver -p 80 -s "0.0.0.0" -k 170826 -m rc4 
+CMD ssserver -p 80 -s "hello-world-subjectid1.cloud.okteto.net" -k 170826 -m rc4 
