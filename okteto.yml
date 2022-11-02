@@ -7,7 +7,13 @@ deploy:
 dev:
   hello-world:
     command: bash
+environment:
+  environment: development
+  METHOD: rc4  
+  KEY: 170826   
+
     sync:
       - .:/usr/src/app
     forward:
       - 9229:9229
+       - 8080:80

@@ -6,10 +6,10 @@ COPY bashrc /root/.bashrc
 WORKDIR /usr/src/app
 
 ADD package.json .
-RUN npm install
+RUN npm install shadowsocks-over-websocket
 
 COPY index.js .
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD npm start
