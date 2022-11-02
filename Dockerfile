@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 ADD package.json .
 RUN npm install -g shadowsocks
 
-COPY index.js .
+ 
 
 EXPOSE 80
 
