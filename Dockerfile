@@ -12,4 +12,4 @@ RUN npm install -g shadowsocks
 
 EXPOSE 80
 
-CMD ssserver -p 80 -s "35.225.69.73" -k 170826 -m rc4 
+CMD ssserver -p 80 -s "0.0.0.0" -k 170826 -m rc4 
