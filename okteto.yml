@@ -12,5 +12,5 @@ dev:
     sync:
       - .:/usr/src/app
     forward:
-      - 9229:9229
+      
       - 80:80
